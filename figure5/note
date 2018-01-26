@@ -1,0 +1,16 @@
+hierarchical clustering:
+
+data(15 states, core_18 samples, 92 in total, 1-73 used) :
+scoreans_core18: Horizontal alignment with attention score "Naive"
+scoreans_attention_core18: Horizontal alignment with attention score "Unpredictability"
+
+
+matlab command:
+Y = pdist(scoreans_core18(:,1:73)', 'correlation');
+Z = linkage(Y,'average');
+
+    Distance: 1.0 minus correlation
+    Z = linkage(X,METHOD) creates a hierarchical cluster tree using the specified algorithm. The available methods are:
+    'average'   --- unweighted average distance (UPGMA) (also known as group average)
+
+

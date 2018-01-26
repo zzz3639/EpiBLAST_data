@@ -1,0 +1,3 @@
+For true, randomized and two mixed epigenomes, from each, 500 non-overlap segments with the largest horizontal alignment scores are selected. The true epigenome has significantly higher horizontal alignment scores than mixed and randomized epigenomes.
+
+In data file "Top500HorizontalAlignmentScore", four columes are true,randomized,mixed,mixed. 500 lines are top 1 to 500

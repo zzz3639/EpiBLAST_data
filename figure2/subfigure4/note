@@ -1,0 +1,5 @@
+For two mixed epigenomes, almost all top 500 segments are from true regions, that indicates top regions we selected (both in true and mixed epigenomes) indeed carries some patterns specific to biological samples.
+
+Top500origindata: 
+lines: true regions, randomized regions, interjunction regions.
+columns: two samples.

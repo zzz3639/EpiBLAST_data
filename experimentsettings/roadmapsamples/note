@@ -1,0 +1,15 @@
+dbindex_full18:
+Samples have core_18 chromHMM states on all 25 chromosomes(1-22,X,Y,M).
+
+roadmap.xlsx, roadmapsamples:
+Downloaded from http://egg2.wustl.edu/roadmap/web_portal/meta.html
+A summary of roadmap samples.
+
+roadmapsamples_core18:
+column information is same as roadmapsamples, only lines(samples) overlap with dbindex_full18 are maintained
+
+filtered files:
+roadmapsamplesC, roadmapsamplesSD, roadmapsamples_core18C, roadmapsamples_core18SD:
+Single Donor (SD) /Composite (C)
+
+

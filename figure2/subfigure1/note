@@ -1,0 +1,2 @@
+Distribution of horizontal alignment score on sample E003.
+Horizontal alignment assigned a score for each segment. The distribution of horizontal alignment scores is shown in this figure. Compare to randomized epigenome, true epigenome has higher horizontal alignment score, that indicates EpiBLAST indeed captured longer patterns randomized epigenome doesn't have.
