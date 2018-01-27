@@ -1,0 +1,4 @@
+E104	81	Heart	#D56F80	HRT.ATR.R	-1	1	0	0	1	0	0	0	Right Atrium	Right_Atrium	HEART	PrimaryTissue	UCSD	34Y	Male	SOLID	Caucasian	SD	STL003	Class 2
+E095	82	Heart	#D56F80	HRT.VENT.L	1	1	1	0	1	0	0	0	Left Ventricle	Left_Ventricle	HEART	PrimaryTissue	UCSD	3Y, 34Y	Male	SOLID	Caucasian/African American, Caucasian	C	STL001;STL003	Class 2
+E105	83	Heart	#D56F80	HRT.VNT.R	-1	1	0	0	1	0	0	0	Right Ventricle	Right_Ventricle	HEART	PrimaryTissue	UCSD	3Y, 34Y	Male	SOLID	Caucasian/African American, Caucasian	C	STL001;STL003	Class 2
+E065	84	Heart	#D56F80	VAS.AOR	1	1	1	0	1	0	0	0	Aorta	Aorta	VASCULAR	PrimaryTissue	UCSD	34Y	Male	SOLID	Caucasian	SD	STL003	Class 2

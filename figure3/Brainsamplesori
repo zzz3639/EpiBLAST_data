@@ -1,0 +1,7 @@
+E071	64	Brain	#C5912B	BRN.HIPP.MID	1	0	1	1	1	1	0	0	Brain Hippocampus Middle	Brain_Hippocampus_Middle	BRAIN	PrimaryTissue	BI	81Y, 73Y	Male	SOLID	Unknown	C	149;150	Class 2
+E074	65	Brain	#C5912B	BRN.SUB.NIG	1	0	1	0	1	0	0	0	Brain Substantia Nigra	Brain_Substantia_Nigra	BRAIN	PrimaryTissue	BI	75Y, 81Y	Mixed	SOLID	Unknown	C	112;149	Class 5
+E068	66	Brain	#C5912B	BRN.ANT.CAUD	1	0	1	1	1	1	0	0	Brain Anterior Caudate	Brain_Anterior_Caudate	BRAIN	PrimaryTissue	BI	75Y, 81Y	Mixed	SOLID	Unknown	C	112;149	Class 5
+E069	67	Brain	#C5912B	BRN.CING.GYR	1	0	1	0	1	0	0	0	Brain Cingulate Gyrus	Brain_Cingulate_Gyrus	BRAIN	PrimaryTissue	BI	75Y, 81Y	Mixed	SOLID	Unknown	C	112;149	Class 5
+E072	68	Brain	#C5912B	BRN.INF.TMP	1	0	1	1	1	0	0	0	Brain Inferior Temporal Lobe	Brain_Inferior_Temporal_Lobe	BRAIN	PrimaryTissue	BI	75Y, 81Y	Mixed	SOLID	Unknown	C	112;149	Class 5
+E067	69	Brain	#C5912B	BRN.ANG.GYR	1	0	1	1	1	0	0	0	Brain Angular Gyrus	Brain_Angular_Gyrus	BRAIN	PrimaryTissue	BI	75Y, 81Y	Mixed	SOLID	Unknown	C	112;149	Class 5
+E073	70	Brain	#C5912B	BRN.DL.PRFRNTL.CRTX	1	0	1	1	1	0	0	0	Brain_Dorsolateral_Prefrontal_Cortex	Brain_Mid_Frontal_Lobe	BRAIN	PrimaryTissue	BI	75Y, 81Y	Mixed	SOLID	Unknown	C	112;149	Class 5
