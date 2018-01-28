@@ -1,0 +1,13 @@
+Gene and tissue specific gene enrichment:
+
+After implementing horizontal alignment(or naive comparison) on 92 selected samples, for each sample, top 500 non-overlapping segments are extracted. Genes(and tissue specific genes) on top 500 segments are counted sample by sample. 
+
+Gene list is: experimentsettings/genelist/geneidprocessed
+Tissue specific gene lists are in: experimentsettings/tsgenelist/
+
+Enrichment data: matrix file named as {Tissue}enrich{gene/tsgene}
+
+lines are define by {Tissue}samples
+columns are EpiBLAST_naive(naive attention score), EpiBLAST_up(unpredictibility), naive comparison
+
+
