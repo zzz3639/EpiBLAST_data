@@ -1,0 +1,10 @@
+top 500 non-overlapping segments of E003 are selected and compared in pairwise in this analysis. 
+
+For segment i and segment j, maximal local alignment score from EpiBLAST_naive(naive attention score) is computed and treated as the similarity of these two segments. The score is stored in the entry [i,j] of a matrix M of size 500*500. Hierarchical clustering on M is implemented followed by.
+
+In the hierarchical clustering, distance matrix D is defined by 1-M/u/1.1 (diag(D)=0), u is the largest number of all the non-diagonal elements of M.
+
+In hierarchical clustering, distance between two clusters is defined by unweighted average distance (also known as group average).
+
+We found that top 500 segments are indeed clustered. This heat map also tells us there is hierarchical structure(detailed clusters inside a large cluster) inside this top 500 segment assembly.
+
