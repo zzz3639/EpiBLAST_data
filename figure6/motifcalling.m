@@ -1,4 +1,4 @@
-function [ leaforder, scoreout ] = motifcalling( EpiBLASTscores )
+function [ leaforder, scoreout ] = motifcalling( EpiBLASTscores, leaforderin )
 % Usage: [leaforder] = motifcalling( EpiBLASTscores )
 
 N=size(EpiBLASTscores,1);
@@ -10,12 +10,17 @@ scoretemp=scoretemp/normdiv/1.1;
 dist = (1-scoretemp);
 dist = dist - diag(diag(dist));
 
-Y=squareform(dist);
-Z=linkage(Y,'average');
-leaforder = optimalleaforder(Z,Y);
+if exist('leaforderin')
+    leaforder=leaforderin;
+else
+    Y=squareform(dist);
+    Z=linkage(Y,'average');
+    leaforder = optimalleaforder(Z,Y);
+end
 
 scoreout=scoretemp;
 imshow(scoreout(leaforder,leaforder));
+colorbar();
 
 end
 
